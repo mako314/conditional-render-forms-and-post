@@ -2,73 +2,96 @@ import React, {useState} from 'react';
 
 function FormOne(){
     const [selectedCategory, setSelectedCategory] = useState(" ")
-    console.log(selectedCategory)
+    // console.log(selectedCategory)
 
     const carForm = (
         <>
         <label>
-            <input type="text" name="make"> </input>
+            Make: 
+            <input type="text" name="make"/>
         </label>
 
         <label>
-            <input type="text" name="model"> </input>
+            Model: 
+            <input type="text" name="model"/>
         </label>
 
         <label>
-            <input type="text" name="year"> </input>
+            Year: 
+            <input type="text" name="year"/>
         </label>
         
         <label>
-            <input type="text" name="color"> </input>
+            Color: 
+            <input type="text" name="color"/>
         </label>
         
         <label>
-            <input type="text" name="sellingLocation"> </input>
+            Selling Location: 
+            <input type="text" name="sellingLocation"/>
         </label>
         
         <label>
-            <input type="text" name="seller"> </input>
+            Seller: 
+            <input type="text" name="seller"/>
         </label>
         
         <label>
-            <input type="text" name="price"> </input>
+            Price :
+            <input type="text" name="price"/>
         </label>
+
+        <br/>
+
+        <button className="button" type="submit"> Submit Button </button>
         </>
     )
 
     const homeForm = (
         <>
         <label>
-            <input type="text" name="homeType"> </input>
+            Home Type: 
+            <input type="text" name="homeType"/>
         </label>
 
         <label>
-            <input type="text" name="bed"> </input>
+            Beds: 
+            <input type="text" name="bed"/>
         </label>
 
         <label>
-            <input type="text" name="bath"> </input>
+            Bathrooms: 
+            <input type="text" name="bath"/>
         </label>
 
         <label>
-            <input type="text" name="sqFt"> </input>
+            Square Footage: 
+            <input type="text" name="sqFt"/>
         </label>
 
         <label>
-            <input type="text" name="yearBuilt"> </input>
+            Year Built:
+            <input type="text" name="yearBuilt"/>
         </label>
 
         <label>
-            <input type="text" name="askingPrice"> </input>
+            Asking Price: 
+            <input type="text" name="askingPrice"/>
         </label>
 
         <label>
-            <input type="text" name="sellingLocation"> </input>
+            Selling Location: 
+            <input type="text" name="sellingLocation"/>
         </label>
 
         <label>
-            <input type="text" name="realtor"> </input>
+            Realtor: 
+            <input type="text" name="realtor"/>
         </label>
+
+        <br/>
+
+        <button className="button" type="submit"> Submit Button </button>
         </>
     )
 
