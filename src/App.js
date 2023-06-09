@@ -1,4 +1,5 @@
 import React from "react";
+import DomContent from "./DomContent";
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <div className="content">
-
+      <DomContent/>
     </div>
   );
 }
