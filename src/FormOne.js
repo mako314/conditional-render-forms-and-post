@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
+import HomeList from "./HomeList";
+import CarList from './CarList.js';
 
-function FormOne(){
+function FormOne({homeContent, carContent}){
     const [selectedCategory, setSelectedCategory] = useState(" ")
     // console.log(selectedCategory)
 
@@ -114,7 +116,12 @@ function FormOne(){
                 {selectedCategory === "cars" ? carForm : "" }
                 {selectedCategory === "homes" ? homeForm : "" }
             </form>
+
+            {selectedCategory === "homes" ? <HomeList homeContent={homeContent}/> : "" }
+            {selectedCategory === "cars" ? <CarList carContent={carContent}/> : "" }
+
         </div>
+        
     )
 }
 

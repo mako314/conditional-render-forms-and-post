@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from "react";
-import CarDomContent from "./CarDomContent";
-import HomeDomContent from "./HomeDomContent";
 import FormOne from "./FormOne";
 
 function App() {
@@ -19,15 +17,13 @@ function App() {
     .then(data => setHomeContent(data))
   },[])
 
-  // console.log(carContent)
-  // console.log(homeContent)
+  console.log(carContent)
+  console.log(homeContent)
 
 
   return (
     <div className="content">
-      <FormOne/>
-      <CarDomContent/>
-      <HomeDomContent/>
+      <FormOne homeContent={homeContent} carContent={carContent}/>
     </div>
   );
 }
