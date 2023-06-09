@@ -1,12 +1,13 @@
 import React from "react";
+import DomContent from "./DomContent";
 
 function App() {
 
 
 
   return (
-    <div className="">
-     
+    <div className="content">
+      <DomContent/>
     </div>
   );
 }
