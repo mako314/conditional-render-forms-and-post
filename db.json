@@ -1,0 +1,27 @@
+{
+    "cars": [
+        {
+            "id" : 1,
+            "make": "Toyota" ,
+            "model": "LE Hybrid" ,
+            "year": "2023",
+            "color": "Red",
+            "sellingLocation": "Atlanta, Georgia",
+            "seller": "Thomas Blake",
+            "price": "28,655"
+        }
+    ],
+
+    "homes": [
+        {
+            "homeType": "Single family residence",
+            "bed": "4",
+            "bath": "2",
+            "sqFt": "1,808 sqft",
+            "yearBuilt": "2019",
+            "askingPrice": "640,000",
+            "sellingLocation": " Atlanta, Georgia",
+            "realtor": "Elizabeth Helms"
+        }
+    ]
+}
