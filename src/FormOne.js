@@ -4,6 +4,79 @@ function FormOne(){
     const [selectedCategory, setSelectedCategory] = useState(" ")
     console.log(selectedCategory)
 
+    const carForm = (
+        <>
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+        
+        <label>
+            <input type="text"> </input>
+        </label>
+        
+        <label>
+            <input type="text"> </input>
+        </label>
+        
+        <label>
+            <input type="text"> </input>
+        </label>
+        
+        <label>
+            <input type="text"> </input>
+        </label>
+        </>
+    )
+
+    const homeForm = (
+        <>
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+
+        <label>
+            <input type="text"> </input>
+        </label>
+        
+        </>
+    )
+
+
+
+
+
     return(
 
         <div id="formDiv">
@@ -17,7 +90,6 @@ function FormOne(){
 
             </form>
         </div>
-
     )
 }
 
