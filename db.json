@@ -10,17 +10,6 @@
       "location": "Atlanta, Georgia",
       "seller": "Thomas Blake",
       "price": "28,655"
-    },
-    {
-      "image": "https://cars.usnews.com/static/images/Auto/custom/15030/2023_Toyota_Camry_1.jpg",
-      "make": "Toyota ",
-      "model": "Camry XSE",
-      "year": "2023",
-      "color": "White",
-      "location": "Mobile, Alabama",
-      "seller": "Jacob Blake",
-      "price": "36,902",
-      "id": 2
     }
   ],
   "homes": [
@@ -35,18 +24,6 @@
       "price": "640,000",
       "location": " Atlanta, Georgia",
       "realtor": "Elizabeth Helms"
-    },
-    {
-      "image": "https://ap.rdcpix.com/8c1e4a10e72a16ebf8bdca50cecf02b3l-m2474001363od-w480_h360_x2.webp",
-      "home": "Single Family",
-      "bed": "4",
-      "bath": "1.5",
-      "sqFt": "1,896",
-      "built": "1927",
-      "price": "274,900",
-      "location": "Albany, New York",
-      "realtor": "Michael Antonio",
-      "id": 2
     }
   ]
 }
