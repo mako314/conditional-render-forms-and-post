@@ -72,6 +72,8 @@ function FormOne({homeContent, setHomeContent, setCarContent, carContent}){
     // This variable will create help create our CAR HTML form.
 
     const carForm = (
+    
+        //Instead of wrapping this form in a div, to avoid DIV-ception, we'll use a react fragment.
         <>
         <label>
             Make: 

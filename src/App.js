@@ -24,6 +24,8 @@ function App() {
     .then(data => setCarContent(data))
   },[])
 
+  //We need two useEffects because we have two arrays of objects we need to fetch!
+
   useEffect(() =>{
     fetch("http://localhost:3000/homes")
     .then(resp => resp.json())
@@ -33,6 +35,9 @@ function App() {
   // console.log(carContent)
   // console.log(homeContent)
 
+  // It's always a good recommendation to console log your data to make sure you're grabbing the right thing!
+
+  
   //We'll be making things extra responsive. So we'll pass all of our stateVariable variables to FormOne.
   //Do not miss this step! Or else you will run into errors!
 
